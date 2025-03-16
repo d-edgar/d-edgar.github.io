@@ -3,59 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>David Edgar's Portfolio</title>
+    <title>David Edgar's Contact Site</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             text-align: center;
-            background-color: #f4f4f4;
-        }
-        header {
-            background: #333;
-            color: white;
-            padding: 1rem;
-            font-size: 1.5rem;
-        }
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background: white;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h2 {
+            background-color: #eef2f3;
             color: #333;
         }
+        header {
+            background: #222;
+            color: white;
+            padding: 1.5rem;
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 850px;
+            margin: 30px auto;
+            padding: 25px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #222;
+            border-bottom: 2px solid #007BFF;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
         .project {
-            margin: 10px 0;
-            padding: 10px;
+            margin: 15px 0;
+            padding: 15px;
             border-bottom: 1px solid #ddd;
+            text-align: left;
+        }
+        .project h3 {
+            color: #007BFF;
         }
         footer {
             margin-top: 20px;
-            padding: 10px;
-            background: #333;
+            padding: 15px;
+            background: #222;
             color: white;
+            font-size: 1rem;
         }
         a {
             color: #007BFF;
             text-decoration: none;
+            font-weight: bold;
         }
         a:hover {
             text-decoration: underline;
         }
+        .contact {
+            font-size: 1.2rem;
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
-    <header>David Edgar's Portfolio</header>
+    <header>David Edgar's Contact Site</header>
     <div class="container">
         <h2>About Me</h2>
-        <p>Welcome to my portfolio! I design apps and work in IT & security.</p>
+        <p>Welcome! I design apps and work in IT & security. Feel free to check out my work and reach out.</p>
+        
         <h2>My Resume</h2>
         <p><a href="https://www.linkedin.com/in/davidedgarcnu" target="_blank">View My LinkedIn Profile</a></p>
+        
         <h2>Projects</h2>
         <div class="project">
             <h3>Streaking: The Habit Tracker</h3>
@@ -67,9 +84,12 @@
             <p>A Windows Forms application that notifies users about the upcoming end-of-life for Windows 10. It prompts users to upgrade their system or schedule a consultation with IT, featuring persistent notifications and actionable buttons.</p>
             <p><a href="https://github.com/d-edgar/Windows10Warning" target="_blank">View on GitHub</a></p>
         </div>
+        
+        <h2>Contact Me</h2>
+        <p class="contact">Email: <a href="mailto:david.emerson.edgar@gmail.com">david.emerson.edgar@gmail.com</a></p>
     </div>
     <footer>
-        &copy; 2025 David Edgar | <a href="mailto:your@email.com">Contact Me</a>
+        &copy; 2025 David Edgar | <a href="mailto:david.emerson.edgar@gmail.com">Contact Me</a>
     </footer>
 </body>
 </html>

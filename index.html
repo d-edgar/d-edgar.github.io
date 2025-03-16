@@ -1,7 +1,75 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Edgar's Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 1rem;
+            font-size: 1.5rem;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+        }
+        .project {
+            margin: 10px 0;
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            background: #333;
+            color: white;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <header>David Edgar's Portfolio</header>
+    <div class="container">
+        <h2>About Me</h2>
+        <p>Welcome to my portfolio! I design apps and work in IT & security.</p>
+        <h2>My Resume</h2>
+        <p><a href="https://www.linkedin.com/in/davidedgarcnu" target="_blank">View My LinkedIn Profile</a></p>
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Streaking: The Habit Tracker</h3>
+            <p>A simple app to track habits, count days of sobriety, or countdown to significant events. No subscriptions or in-app purchases—just a straightforward tracker to monitor your days and habits.</p>
+            <p><a href="https://apps.apple.com/us/app/streaking-the-habit-tracker/id6468603097" target="_blank">View on App Store</a></p>
+        </div>
+        <div class="project">
+            <h3>Windows 10 End-of-Life Notifier</h3>
+            <p>A Windows Forms application that notifies users about the upcoming end-of-life for Windows 10. It prompts users to upgrade their system or schedule a consultation with IT, featuring persistent notifications and actionable buttons.</p>
+            <p><a href="https://github.com/d-edgar/Windows10Warning" target="_blank">View on GitHub</a></p>
+        </div>
+    </div>
+    <footer>
+        &copy; 2025 David Edgar | <a href="mailto:your@email.com">Contact Me</a>
+    </footer>
 </body>
 </html>
